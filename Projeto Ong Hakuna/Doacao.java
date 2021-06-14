@@ -4,11 +4,9 @@ import java.text.NumberFormat;
 import java.util.Scanner;
 
 public class Doacao {
-	String y;
-	String nDoador;
-	String dado;
-	private String tf;
-	private int vDoado;
+	String nDoador; // nome doador
+	private String tf; //telefone
+	private int vDoado; //valor doado
 
 	public Doacao() {
 		this.nDoador = nDoador;

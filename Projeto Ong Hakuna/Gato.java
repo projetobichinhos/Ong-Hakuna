@@ -139,26 +139,26 @@ public class Gato {
 		Scanner read = new Scanner(System.in);
 
 		System.out.println("\nOlá! Seja bem vinde! Temos estes lindos gatinhos para adoção:");
-		System.out.println("\n1 - Heitor\n2 - Salém\n3 - Penélope");
+		System.out.println("\n1 - Heitor\n"
+							+ "2 - Salém\n"
+							+ "3 - Penélope");
 		op = read.nextInt();
 
 		switch (op) {
 		case 1:
-			System.out.printf(
-					"\n Heitor \n Macho \n Preto \n 3 anos \n SRD \n Tomei todas as vacinas, estou vermifugado e "
-					+ "castrado \n Infelizmente tenho FELV \n Adoro um cafuné na cabeça \n Estou na rua das Andorinhas "
-					+ "\n Telefone: 98477-0988");
+			System.out.printf("\n Heitor \n Macho \n Preto \n 3 anos \n SRD \n Tomei todas as vacinas, estou vermifugado e "
+								+ "castrado \n Infelizmente tenho FELV \n Adoro um cafuné na cabeça \n Estou na rua das Andorinhas "
+								+ "\n Telefone: 98477-0988");
 			break;
 		case 2:
-			System.out.printf(
-					"\n Salém \n Macho \n Malhado \n 7 meses \n SRD \n Tomei todas as vacinas, estou vermifugado e "
-					+ "castrado \n Não tenho FELV \n Um amorzinho \n Você pode me encontrar na Rua Bartolomeu \n Telefone: 98477-0988");
+			System.out.printf("\n Salém \n Macho \n Malhado \n 7 meses \n SRD \n Tomei todas as vacinas, estou vermifugado e "
+								+ "castrado \n Não tenho FELV \n Um amorzinho \n Você pode me encontrar na Rua Bartolomeu "
+								+ "\n Telefone: 98477-0988");
 			break;
 		case 3:
-			System.out.printf(
-					"\n Penélope \n Fêmea \n Cinza \n 6 anos\n SRD \n Tomei todas as vacinas, estou vermifugada e "
-					+ "castrada \n Não tenho FELV \n Sou um pouco assustada, mas tem muito amor para dar\n Estou em um "
-					+ "lar temporário na Rua Valetim Magalhões \n Telefone: 98477-0988");
+			System.out.printf("\n Penélope \n Fêmea \n Cinza \n 6 anos\n SRD \n Tomei todas as vacinas, estou vermifugada e "
+								+ "castrada \n Não tenho FELV \n Sou um pouco assustada, mas tenho muito amor para dar\n Estou "
+								+ "em um lar temporário na Rua Valetim Magalhões \n Telefone: 98477-0988");
 			break;
 		default:
 			System.out.println("Hmmm...Opção invalida!");
@@ -169,7 +169,8 @@ public class Gato {
 		op = read.nextInt();
 		switch (op) {
 		case 1:
-			System.out.println("Ficamos muito felizes com a sua escolha!!! \nGatos são ótimas cia");
+			System.out.println("Ficamos muito felizes com a sua escolha!!! \nGatos são ótimas cia"
+					+ "\nEntre em contato com a ong e conheça seu novo amigo (a), telefone: 11 98477-0766.");
 			break;
 		default:
 			System.out.println("Poxa! Que pena...Mas você pode nos doar ração!");
